@@ -1,0 +1,23 @@
+{
+  "name": "kickass-search",
+  "version": "1.0.0",
+  "description": "Really simple kickass.to search",
+  "main": "index.js",
+  "dependencies": {
+    "request": "^2.53.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/N44PS/kickass-search.git"
+  },
+  "keywords": [
+    "kickass.to",
+    "kickass",
+    "search"
+  ],
+  "author": {
+    "name": "Florian Michaut",
+    "email": "florianmichaut@gmail.com"
+  },
+  "license": "MIT"
+}
