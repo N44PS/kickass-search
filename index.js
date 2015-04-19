@@ -25,23 +25,5 @@ module.exports = kickass = {
 		    callbackError(err);
 		  }
 		});
-	},
-	getTorrentLink:function(name, callbackSuccess, callbackError){
-		kickass.search(name, function(torrents){
-			tmp = data.sort(function(a,b){
-	          if(a.created_ts>b.created_ts){
-	            if(a.status === b.status)
-	              return -1;
-	            else{
-	              if(a.status==="seeding")
-	                return 1;
-	              else
-	                return -1;
-	            }
-	          }else{
-	            return 1;
-	          }
-	        });
-		}, callbackError)
 	}
 }
